@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "id": "019a9b8d-1b2a-7ee9-a87a-2bebe4f6114e",
+      "title": "Danse Part 2",
+      "description": "Part 2 Danse",
+      "thumbnailUrl": "localhost:9001/bambaiba-videos/019a9b8d-1b2a-7ee9-a87a-2bebe4f6114e.jpg",
+      "duration": "00:01:10.4800000",
+      "viewCount": 2,
+      "likeCount": 0,
+      "createdAt": "2025-11-19T09:58:27.370646Z",
+      "userId": "019a9b87-cea7-7020-8e27-4a59721d659b"
+    },
+    {
+      "id": "019a9b8e-b1a7-7d51-bc04-7b3ec4a2481b",
+      "title": "Cube Mauvais pour la santé Part 1",
+      "description": "Part 1 Cube",
+      "thumbnailUrl": "localhost:9001/bambaiba-videos/019a9b8e-b1a7-7d51-bc04-7b3ec4a2481b.jpg",
+      "duration": "00:01:10.4800000",
+      "viewCount": 0,
+      "likeCount": 0,
+      "createdAt": "2025-11-19T10:00:11.431605Z",
+      "userId": "019a9b87-cea7-7020-8e27-4a59721d659b"
+    }
+  ],
+  "totalCount": 5,
+  "page": 1,
+  "pageSize": 2,
+  "totalPages": 3
+}

@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": "019a9b9f-89c7-7ff4-92e5-a20c03954784",
+      "title": "Imposition des mains Part 1",
+      "speaker": "",
+      "category": "",
+      "topic": "",
+      "coverImageUrl": "localhost:9001/bambaiba-images/images/audios/019a9b9f-89c7-7ff4-92e5-a20c03954784/imposition_des_mains.png",
+      "duration": "00:46:37.2400000",
+      "playCount": 1,
+      "createdAt": "2025-11-19T10:18:35.335117Z",
+      "updatedAt": "2025-11-19T10:18:45.887772Z"
+    },
+    {
+      "id": "019a9b92-645d-72a6-927f-d752308b4d13",
+      "title": "Imposition des mains",
+      "speaker": "",
+      "category": "",
+      "topic": "",
+      "coverImageUrl": "localhost:9001/bambaiba-images/images/audios/019a9b92-645d-72a6-927f-d752308b4d13/unnamed.webp",
+      "duration": "00:46:37.2400000",
+      "playCount": 1,
+      "createdAt": "2025-11-19T10:04:13.789127Z",
+      "updatedAt": "2025-11-19T10:04:25.059777Z"
+    }
+  ],
+  "totalCount": 2,
+  "page": 1,
+  "pageSize": 2,
+  "totalPages": 1
+}
