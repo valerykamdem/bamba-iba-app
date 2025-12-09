@@ -78,9 +78,16 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// Configuration pour autoriser les fichiers volumineux
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
+// // Configuration pour autoriser les fichiers volumineux
+// export const config = {
+//   api: {
+//     bodyParser: false,
+//   },
+// };
+
+// Nouveau code (à utiliser pour désactiver bodyParser ou gérer des fichiers lourds) :
+export const dynamic = 'force-dynamic' // Exemple
+export const maxDuration = 60 // Exemple
+
+export const runtime = 'nodejs';
+export const bodyParser = false; 

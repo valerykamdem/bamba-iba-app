@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useAuthStore } from '@/store/useAuthStore';
-import { isTokenExpiringSoon } from './tokenUtils';
+// import { isTokenExpiringSoon } from './tokenUtils';
 
 // Client HTTP configuré pour communiquer avec votre API backend
 export const apiClient = axios.create({

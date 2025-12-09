@@ -1,7 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-const ReactPlayer = dynamic(() => import('react-player/youtube'), { ssr: false });
+const ReactPlayer = dynamic(() => import('react-player/lazy'), { ssr: false });
 import { useState } from 'react';
 
 interface YouTubePlayerProps {
@@ -25,16 +25,17 @@ export default function YouTubePlayer({ url, title }: YouTubePlayerProps) {
                 )}
 
                 <ReactPlayer
+                    key={url}
                     url={url}
                     width="100%"
                     height="100%"
                     controls
                     playing={false}
                     onReady={() => setIsReady(true)}
+                    onError={(e) => console.error('YouTube Player Error:', e)}
                     config={{
                         youtube: {
                             playerVars: {
-                                showinfo: 1,
                                 modestbranding: 1,
                             },
                         },
